@@ -1,0 +1,12 @@
+.container {
+	height: 100%;
+	width: 100%;
+}
+.outmost-box {
+	margin-top: 10%;
+	padding: 40%;
+	height: 40%;
+	width: 40%;
+	border: solid #000;
+	box-shadow: 0 0 20px #888;
+}
