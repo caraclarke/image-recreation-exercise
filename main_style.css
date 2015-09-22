@@ -2,6 +2,11 @@ body {
 	color: #000;
 }
 
+p {
+  font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+}
+
 .container {
 	height: 60%;
 	width: 60%;
