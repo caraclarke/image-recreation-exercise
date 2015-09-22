@@ -75,26 +75,26 @@ body {
 
 .one {
 	position: relative;
-	top: -150px;
-	left: -125px;
+	top: -45px;
+	left: 50px;
 }
 
 .two {
 	position: relative;
-	top: -175px;
-	right: -125px;
+	top: -45px;
+	right: 50px;
 }
 
 .three {
 	position: relative;
-	top: 100px; /* TODO may have to change size when change font */
-	left: -125px;
+	top: 45px;
+	left: 45px;
 }
 
 .four {
 	position: relative;
-	top: 75px;
-	right: -125px;
+	top: 45px;
+	right: 45px;
 }
 
 .small-circle {
