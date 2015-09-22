@@ -1,3 +1,6 @@
+body {
+	color: #000;
+}
 .container {
 	/*height: 100%;
 	width: 100%;*/
@@ -34,6 +37,34 @@
   border-radius: 50%;
 }
 
+.large-circle p {
+	z-index: 11;
+}
+
+.one {
+	position: relative;
+	top: -150px;
+	left: -125px;
+}
+
+.two {
+	position: relative;
+	top: -175px;
+	right: -125px;
+}
+
+.three {
+	position: relative;
+	top: 100px; /* TODO may have to change size when change font */
+	left: -125px;
+}
+
+.four {
+	position: relative;
+	top: 75px;
+	right: -125px;
+}
+
 .vertical-line {
 	margin: 25%;
 	margin-top: -50%;
@@ -50,12 +81,14 @@
 }
 
 .small-circle {
-	padding: 5%;
+	background-color: #fff;
+	padding: 35px;
+	text-align: center;
+	/*padding: 5%;*/
 	margin: 45%;
 	margin-top: -30%;
 	border: 1px solid red;
 	border-radius: 50%;
-	background-color: #fff;
 	position: relative;
 	z-index: 10;
 }
