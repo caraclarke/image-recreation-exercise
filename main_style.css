@@ -28,7 +28,21 @@
 
 .large-circle {
 	padding: 25%;
-	margin: -75% 25% 25% 25%;
+	margin: 25%;
+	margin-top: -75%;
 	border: 1px solid red;
   border-radius: 50%;
+}
+
+.vertical-line {
+	margin: 25%;
+	margin-top: -50%;
+	border: 1px solid red;
+}
+
+.horizontal-line {
+	margin: 25%;
+	margin-top: -25%;
+	border: 1px solid red;
+	transform: rotate(90deg);
 }
