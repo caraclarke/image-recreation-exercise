@@ -38,6 +38,8 @@
 	margin: 25%;
 	margin-top: -50%;
 	border: 1px solid red;
+	position: relative;
+	z-index: -5;
 }
 
 .horizontal-line {
@@ -45,4 +47,15 @@
 	margin-top: -25%;
 	border: 1px solid red;
 	transform: rotate(90deg);
+}
+
+.small-circle {
+	padding: 5%;
+	margin: 45%;
+	margin-top: -30%;
+	border: 1px solid red;
+	border-radius: 50%;
+	background-color: #fff;
+	position: relative;
+	z-index: 10;
 }
